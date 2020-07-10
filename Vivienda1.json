@@ -1,0 +1,65 @@
+{
+    "NombrePlano": "Vivienda1",
+    "Zonas": [
+        {
+            "he": "-190",
+            "nombre": "Garaje",
+            "observaciones": "Estancia amplia con capacidad para 2 vehículos. \n54,3 metros cuadrados.\n",
+            "wi": "173",
+            "x1": "108",
+            "x2": "281",
+            "x3": "108",
+            "y1": "32",
+            "y2": "222",
+            "y3": "222"
+        },
+        {
+            "he": "-147",
+            "nombre": "Dormitorio 1",
+            "observaciones": "Dormitorio principal, con acceso desde el pasillo principal de la vivienda. \n22,9 metros cuadrados.",
+            "wi": "156",
+            "x1": "308",
+            "x2": "464",
+            "x3": "308",
+            "y1": "332",
+            "y2": "479",
+            "y3": "479"
+        },
+        {
+            "he": "-137",
+            "nombre": "Dormitorio 2",
+            "observaciones": "Dormitorio de la vivienda. Más pequeño que el principal. \n13 metros cuadrados",
+            "wi": "120",
+            "x1": "303",
+            "x2": "423",
+            "x3": "303",
+            "y1": "104",
+            "y2": "241",
+            "y3": "241"
+        },
+        {
+            "he": "-277",
+            "nombre": "Salón comedor",
+            "observaciones": "Estancia mayor y principal de la casa. Comparte el salón y el comedor dentro de un mismo espacio. \n35 metros cuadrados.",
+            "wi": "127",
+            "x1": "521",
+            "x2": "648",
+            "x3": "521",
+            "y1": "31",
+            "y2": "308",
+            "y3": "308"
+        },
+        {
+            "he": "-59",
+            "nombre": "Lavadero",
+            "observaciones": "Estancia donde se puede colocar la lavadora y zona de despensa.",
+            "wi": "123",
+            "x1": "298",
+            "x2": "421",
+            "x3": "298",
+            "y1": "26",
+            "y2": "85",
+            "y3": "85"
+        }
+    ]
+}
