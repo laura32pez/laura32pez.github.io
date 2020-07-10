@@ -34,12 +34,8 @@ request.onload = function() {
 		canvas.addEventListener("mousemove", function (evt) {
 			var mousePos = oMousePos(canvas, evt);
 			showZonas(plano,mousePos.x, mousePos.y);
-			//marcarCoords(output, mousePos.x, mousePos.y);
 		}, false);
 
-		canvas.addEventListener("mouseout", function(evt) {
-			limpiarCoords(output);
-		  }, false);
 
 	}
   }
@@ -97,22 +93,4 @@ function oMousePos(canvas, evt) {
 }
 
 
-
-function marcarCoords(output, x, y) {
-	output.innerHTML = ("x: " + x + ", y: " + y);
-	output.style.top = (y + 10) + "px";
-	output.style.left = (x + 10) + "px";
-	output.style.backgroundColor = "#FFF";
-	output.style.border = "1px solid #d9d9d9"
-	canvas.style.cursor = "pointer";
-  }
-  
-  function limpiarCoords(output) {
-	output.innerHTML = "";
-	output.style.top = 0 + "px";
-	output.style.left = 0 + "px";
-	output.style.backgroundColor = "transparent"
-	output.style.border = "none";
-	canvas.style.cursor = "default";
-  }
 
