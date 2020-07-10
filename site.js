@@ -55,7 +55,6 @@ request.onload = function() {
   */
 
   function showZonas(jsonObj,x,y) {
-	output.innerHTML = ("x: " + x + ", y: " + y);
 	document.getElementById("nombreZona").style.display = 'none';
 	document.getElementById("observaciones").style.display = 'none';
     esZona = false;
