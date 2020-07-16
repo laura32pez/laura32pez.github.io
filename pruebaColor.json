@@ -1,0 +1,44 @@
+{
+    "NombrePlano": "pruebaColor",
+    "Zonas": [
+        {
+            "color": "#ff49b0",
+            "he": "-178",
+            "nombre": "Despacho Central",
+            "observaciones": "Despacho Principal",
+            "wi": "181",
+            "x1": "20",
+            "x2": "201",
+            "x3": "20",
+            "y1": "230",
+            "y2": "408",
+            "y3": "408"
+        },
+        {
+            "color": "#00aa00",
+            "he": "-185",
+            "nombre": "Sala 2 de reuniones",
+            "observaciones": "Corresponde con la sala 2 destinada a reuniones.",
+            "wi": "300",
+            "x1": "22",
+            "x2": "322",
+            "x3": "22",
+            "y1": "20",
+            "y2": "205",
+            "y3": "205"
+        },
+        {
+            "color": "#ffff00",
+            "he": "-169",
+            "nombre": "Sala 1 de reuniones",
+            "observaciones": "Sala principal de reuniones.",
+            "wi": "355",
+            "x1": "225",
+            "x2": "580",
+            "x3": "225",
+            "y1": "238",
+            "y2": "407",
+            "y3": "407"
+        }
+    ]
+}
