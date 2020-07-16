@@ -6,7 +6,7 @@ if (canvas && canvas.getContext) {
 
 	var ctx = canvas.getContext("2d");
 	var img = new Image();
-	img.src = "https://raw.githubusercontent.com/laura32pez/inPlanos/master/Vivienda1.jpg"
+	img.src = "https://raw.githubusercontent.com/laura32pez/laura32pez.github.io/master/pruebaColor.jpg"
 	
 
 	img.onload = function () {
@@ -19,7 +19,7 @@ const header = document.querySelector('header');
 const section = document.querySelector('section');
 
 //const requestURL = 'https://raw.githubusercontent.com/laura32pez/inPlanos/master/Vivienda1.json';
-const requestURL = 'https://raw.githubusercontent.com/laura32pez/laura32pez.github.io/gh-pages/Vivienda1IMAGEN.json';
+const requestURL = 'https://raw.githubusercontent.com/laura32pez/laura32pez.github.io/master/pruebaColor.json';
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
