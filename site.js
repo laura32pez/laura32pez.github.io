@@ -6,7 +6,7 @@ if (canvas && canvas.getContext) {
 
 	var ctx = canvas.getContext("2d");
 	var img = new Image();
-	img.src = "https://raw.githubusercontent.com/laura32pez/laura32pez.github.io/master/pruebaColor.jpg"
+	img.src = "https://raw.githubusercontent.com/laura32pez/laura32pez.github.io/master/Oficina.jpg"
 	
 
 	img.onload = function () {
@@ -18,8 +18,8 @@ if (canvas && canvas.getContext) {
 const header = document.querySelector('header');
 const section = document.querySelector('section');
 
-//const requestURL = 'https://raw.githubusercontent.com/laura32pez/inPlanos/master/Vivienda1.json';
-const requestURL = 'https://raw.githubusercontent.com/laura32pez/laura32pez.github.io/master/pruebaColor.json';
+
+const requestURL = 'https://raw.githubusercontent.com/laura32pez/laura32pez.github.io/master/Oficina.json';
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
@@ -34,8 +34,7 @@ request.onload = function() {
 
 		canvas.addEventListener("mousemove", function (evt) {
 			var mousePos = oMousePos(canvas, evt);
-			showZonas(plano,mousePos.x, mousePos.y);
-			//marcarCoords(output, mousePos.x, mousePos.y);
+			showZonas(plano,mousePos.x, mousePos.y);	
 		}, false);
 
 		canvas.addEventListener("mouseout", function(evt) {
@@ -71,12 +70,8 @@ request.onload = function() {
 		document.getElementById("observaciones").style.display = 'block';
 		document.getElementById("imagenZona").style.display = 'block';
 		ctx.globalAlpha = 0.2;
-		//ctx.beginPath();
-		//ctx.lineWidth = "5";
 		ctx.fillStyle =  zonas[i].color;
-		//ctx.strokeStyle = "red" ;
 		ctx.fillRect(zonas[i].x3, zonas[i].y3, zonas[i].wi, zonas[i].he);
-		//ctx.stroke();
 		esZona = true;
 	  }
 	  
@@ -97,14 +92,6 @@ function oMousePos(canvas, evt) {
 
 
 
-function marcarCoords(output, x, y) {
-	output.innerHTML = ("x: " + x + ", y: " + y);
-	output.style.top = (y + 10) + "px";
-	output.style.left = (x + 10) + "px";
-	output.style.backgroundColor = "#FFF";
-	output.style.border = "1px solid #d9d9d9"
-	canvas.style.cursor = "pointer";
-  }
   
   function limpiarCoords(output) {
 	output.innerHTML = "";
